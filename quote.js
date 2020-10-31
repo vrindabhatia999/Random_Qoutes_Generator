@@ -70,11 +70,18 @@ function fun(){
     
 }
 var a3=document.getElementById("img");
-a3.addEventListener("click",fun2);
+//a3.addEventListener("click",fun2);
 
 function fun2(){
     
     document.getElementById("imgcls").style.backgroundImage=images;
 }
+
+var q1=document.createElement('div');
+document.body.appendChild(q1)
+
+q1.innerHTML='<img src="img/img1.svg" height=50px;>';
+q1 .style.marginTop="-29%";
+q1 .style.marginLeft="29%";
 
      
