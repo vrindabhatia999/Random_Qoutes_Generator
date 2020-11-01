@@ -69,6 +69,8 @@ function fun(){
     a2.innerHTML=r1;
     
 }
+
+a2.style.fontFamily='sans-serif';
 var a3=document.getElementById("img");
 //a3.addEventListener("click",fun2);
 
@@ -81,7 +83,7 @@ var q1=document.createElement('div');
 document.body.appendChild(q1)
 
 q1.innerHTML='<img src="img/img1.svg" height=50px;>';
-q1 .style.marginTop="-32%";
+q1 .style.marginTop="-36%";
 q1 .style.marginLeft="64%";
 
      
