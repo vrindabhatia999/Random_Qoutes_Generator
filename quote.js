@@ -54,7 +54,8 @@ const quote=[
 
 "No IFS, ANDS, or BUTS ~ just DO it.",
 
-"Sometimes we’re tested. Not to show our weaknesses, but to discover our strengths"
+"Sometimes we’re tested. Not to show our weaknesses, but to discover our strengths",
+"Always believe in GOD"
 
 
 ];
@@ -80,7 +81,7 @@ function fun2(){
 }
 
 var q1=document.createElement('div');
-document.body.appendChild(q1)
+document.body.appendChild(q1);
 
 q1.innerHTML='<img src="img/img1.svg" height=50px;>';
 q1 .style.marginTop="-36%";
